@@ -1,0 +1,1 @@
+<footer>Copyright &copy 2015 groep 2</footer>
