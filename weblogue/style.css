@@ -253,6 +253,38 @@ display: none;
 	background-color: #5CE98D;
 }
 
+#post{
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.postContent{
+	background-color: #B45EF0;
+	-moz-box-shadow: 1.5px 1px 3px #696765;
+   	-webkit-box-shadow: 1.5px 1px 3px #696765;
+    box-shadow: 1.5px 1px 3px #696765;
+}
+
+.postTitle {
+	background-color: #B45EF0;
+	-moz-box-shadow: 1.5px 1px 3px #696765;
+   	-webkit-box-shadow: 1.5px 1px 3px #696765;
+    box-shadow: 1.5px 1px 3px #696765;
+}
+
+.postTitle h1{
+	padding: 5px 0;
+	font-size: 50px;
+}
+
+#post p{
+	padding: 0 20px;
+}
+
+.search-field{
+
+}
 @media (max-width: 414px) {
 
 

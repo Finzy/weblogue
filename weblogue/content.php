@@ -12,6 +12,7 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
+
 	<div class="entry-content">
 		<?php
 			/* translators: %s: Name of current post */

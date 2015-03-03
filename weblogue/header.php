@@ -26,12 +26,14 @@
 			<a href="?p"><img src="wp-content/themes/weblogue/img/MoreTo_it.png"></a>
 			<!-- <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2> -->
+
 		</div><!-- .site-branding -->
 	</header><!-- #masthead -->
     <nav>
         <ul>
         <li><a href="?p">Home</a></li>
         <li><a href="?page_id=25">All posts</a></li>
+        <li><?php get_search_form( ); ?></li>
         </ul>
     </nav>
 	<div id="content" class="site-content">
