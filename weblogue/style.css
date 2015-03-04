@@ -108,8 +108,34 @@ nav li{
 	border-left: 1px solid #FA7B87;
 	float: left;
 	height: 100%!important;
-	width: 50%!important;
+	width: 33.33%!important;
 	color: #fff;
+}
+
+.search-field{
+	margin: -1px;
+	outline: none;
+	text-align: center;
+	height: 100%;
+	width: calc(100% - 5px);
+	color: #fff!important;
+	background-color: #6781FF;
+	border: none!important;
+}
+
+.search-field:hover{
+	background-color: #4D61BF;
+	-moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.search-form{
+	/*padding: 1px;*/
+}
+
+.search-submit{
+	display: none;
 }
 
 nav li a{
@@ -118,9 +144,21 @@ nav li a{
 }
 
 
-
 nav li:first-child{
 	border-left: 0px solid #FA7B87;
+}
+
+nav li:last-child{
+	padding: 2px;
+	text-align: left;
+}
+
+nav li:last-child:hover{
+	text-align: left;
+	background-color: #4D61BF;
+	-moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 nav li:hover{
@@ -255,7 +293,6 @@ display: none;
 
 #post{
 	width: 60%;
-	text-align: center;
 	margin: 0 auto;
 }
 
@@ -274,6 +311,7 @@ display: none;
 }
 
 .postTitle h1{
+	text-align: center;
 	padding: 5px 0;
 	font-size: 50px;
 }
@@ -282,9 +320,6 @@ display: none;
 	padding: 0 20px;
 }
 
-.search-field{
-
-}
 @media (max-width: 414px) {
 
 
@@ -314,13 +349,23 @@ display: none;
 		float: none;
 	}
 }
-
+http://localhost/wordpress/?p
 /*This little code below here is to hide scrollbars in chrome*/
 ::-webkit-scrollbar {
-    display: none;
+   display: none;
 }
-
-
+::-webkit-input-placeholder {
+    color:  rgba(255,255,255,0.7);
+}
+:-moz-placeholder {
+    color:  rgba(255,255,255,0.7);
+}
+::-moz-placeholder {
+    color:  rgba(255,255,255,0.7);
+}
+:-ms-input-placeholder {
+    color:  rgba(255,255,255,0.7);
+}
 /*-----------------------/\------------------- own styling --------------------/\----------------------*/
 article,
 aside,
