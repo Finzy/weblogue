@@ -320,6 +320,35 @@ display: none;
 	padding: 0 20px;
 }
 
+#main{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#searchResult{
+	background-color: #B45EF0;
+	padding: 0 5px;
+
+}
+
+.entry-title img{
+	display: none;
+}
+
+.page-title{
+	height: 10%;
+	background-color: #6781FF;
+}
+
+@media (max-width: 700px){
+	.page-title{
+		font-size: 28px;
+		padding: 0 5px;
+	}
+}
+
+
 @media (max-width: 414px) {
 
 
